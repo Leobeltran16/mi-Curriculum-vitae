@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import "../index.css";
 import miFoto from "../assets/foto-cv.jpg";
-import mipdf from "../assets/recomendacion.pdf"
+import cartaImg from "../assets/micurriculum.jpg"
 
 function Curriculum() {
   return (
@@ -84,18 +84,6 @@ function Curriculum() {
           <p>Carnet de salud vigente</p>
         </section>
 
-        <section className="card">
-          <h3>Carta de Recomendación</h3>
-            <p>
-              <a
-              href={mipdf}
-              target="_blank"
-              rel="noopener noreferrer"
-              >
-              Ver carta aquí
-            </a>
-          </p>
-        </section>
       </aside>
 
 
@@ -190,6 +178,10 @@ function Curriculum() {
             <li>GitHub</li><li>Vite</li><li>VS Code</li><li>Photoshop</li>
             <li>Vercel</li><li>Render</li><li>Redes</li><li>Soporte Técnico</li>
           </ul>
+        </section>
+
+        <section className="block carta-img">
+          <img src={cartaImg} alt="Carta de Recomendación" />
         </section>
       </main>
     </div>

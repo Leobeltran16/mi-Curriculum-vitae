@@ -111,3 +111,13 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,
   .cv-grid{grid-template-columns:1fr}
   .hero{grid-template-columns:1fr}
 }
+.carta-img {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.carta-img img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
